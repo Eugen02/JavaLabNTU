@@ -1,0 +1,7 @@
+
+<
+java:S3010
+"Remove this assignment of "pr".(¹Á´—8µ´”ÄØ.
+Œ
+java:S1130/"jRemove the declaration of thrown exception 'java.lang.NumberFormatException' which is a runtime exception.(Öäâ¦ûÿÿÿÿ8µ´”ÄØ.
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(õ¾š´ÿÿÿÿÿ

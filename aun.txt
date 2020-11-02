@@ -1,0 +1,8 @@
+id=3
+name=PrepackFirst
+amount=100
+price=40.0
+type=PrepackagedGoods
+amountInOnePackage=1000
+amountPackageInOnePart=123
+packagePrice=4000.0

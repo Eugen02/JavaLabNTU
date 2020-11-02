@@ -1,0 +1,14 @@
+
+>
+java:S1643"Use a StringBuilder instead.(ÿ›¨üÿÿÿÿ8¿ÿƒÈØ.
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(³œŸòùÿÿÿÿ
+J	java:S108G")Either remove or fill this block of code.(ÄÈÕøûÿÿÿÿ8¿ÿƒÈØ.
+£
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ô—¼àÿÿÿÿÿ8¿ÿƒÈØ.
+h	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(˜§Ó98¿ÿƒÈØ.
+Œ
+java:S1130M"jRemove the declaration of thrown exception 'java.lang.NumberFormatException' which is a runtime exception.(“÷ğòùÿÿÿÿ8¿ÿƒÈØ.
+‡
+java:S1130"jRemove the declaration of thrown exception 'java.lang.NumberFormatException' which is a runtime exception.(ó»’8¿ÿƒÈØ.
+?
+java:S1118"Hide this public constructor.(ô—¼àÿÿÿÿÿ8¿ÿƒÈØ.

@@ -1,0 +1,7 @@
+id=5
+name=WeightFirst
+amount=47
+price=43.34
+type=WeightGood
+minWeightOpt=10.0
+priceOpt=37.0
