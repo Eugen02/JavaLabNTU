@@ -1,0 +1,20 @@
+
+£
+java:S1186~"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(á£·åşÿÿÿÿ8ó†¨ØØ.
+¤
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ÿ¯—¬üÿÿÿÿ8’ÕÎ×Ø.
+…
+java:S1845N"cRename method "getid" to prevent any misunderstanding/clash with method "getId" defined on line 70.(øĞùÿÿÿÿ8ó†¨ØØ.
+
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Š»Ú÷8’ÕÎ×Ø.
+n
+java:S2095®"PUse try-with-resources or close this "ObjectOutputStream" in a "finally" clause.(²Ùéß8’ÕÎ×Ø.
+
+java:S1186‘"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¥­¾8’ÕÎ×Ø.
+H
+java:S1128"+Remove this unused import 'java.util.Date'.(¸…¼ü8ááş×Ø.
+t	java:S116"XRename this field "this_Provider" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ùíÇ°8³ÏÒ×Ø.
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(õû»Á
+s	java:S116"WRename this field "this_Product" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¿Õ¥Ï8º¹Ò×Ø.
+£
+java:S1186k"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ãéô±şÿÿÿÿ8ó†¨ØØ.

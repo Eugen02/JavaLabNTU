@@ -1,0 +1,20 @@
+
+£
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ô—¼àÿÿÿÿÿ8³ûÍØ.
+?
+java:S1118"Hide this public constructor.(ô—¼àÿÿÿÿÿ8³ûÍØ.
+‡
+java:S1130"jRemove the declaration of thrown exception 'java.lang.NumberFormatException' which is a runtime exception.(ó»’8³ûÍØ.
+K	java:S108‚")Either remove or fill this block of code.(ÄÈÕøûÿÿÿÿ8³ûÍØ.
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(–Ä¸œûÿÿÿÿ
+
+java:S1130ˆ"jRemove the declaration of thrown exception 'java.lang.NumberFormatException' which is a runtime exception.(“÷ğòùÿÿÿÿ8³ûÍØ.
+>
+java:S1643"Use a StringBuilder instead.(ÿ›¨üÿÿÿÿ8³ûÍØ.
+‚
+java:S1149m"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(Ëßª˜8³ûÍØ.
+h	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(˜§Ó98³ûÍØ.
+d
+java:S2259…"AA "NullPointerException" could be thrown; "ans" is nullable here.(”—³šûÿÿÿÿ8Åö™ÏØ.
+L
+java:S3740m"/Provide the parametrized type for this generic.(Ëßª˜8³ûÍØ.

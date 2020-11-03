@@ -1,0 +1,30 @@
+
+R
+java:S3740•"/Provide the parametrized type for this generic.(Öö·éşÿÿÿÿ8™ÔÔØ.
+‡
+java:S1149f"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(€ˆèüÿÿÿÿ8™ÔÔØ.
+M
+java:S3740Œ"/Provide the parametrized type for this generic.(ÈÅÀÎ8™ÔÔØ.
+ƒ
+java:S1149Œ"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(ÈÅÀÎ8™ÔÔØ.
+
+java:S1149K"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(”Å½Q8™ÔÔØ.
+n	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(·ÀÒ˜ÿÿÿÿÿ8™ÔÔØ.
+K
+java:S3740K"/Provide the parametrized type for this generic.(”Å½Q8™ÔÔØ.
+ˆ
+java:S1149•"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(Öö·éşÿÿÿÿ8™ÔÔØ.
+L
+java:S3740o"/Provide the parametrized type for this generic.(‡à„û8™ÔÔØ.
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ëƒ‹üÿÿÿÿ
+C	java:S131""Add a default case to this switch.(õÙÆ‚úÿÿÿÿ8™ÔÔØ.
+o
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(âŠ­ù8™ÔÔØ.
+£
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¥è¢Šşÿÿÿÿ8™ÔÔØ.
+?
+java:S1118"Hide this public constructor.(¥è¢Šşÿÿÿÿ8™ÔÔØ.
+Q
+java:S3740f"/Provide the parametrized type for this generic.(€ˆèüÿÿÿÿ8™ÔÔØ.
+‚
+java:S1149o"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(‡à„û8™ÔÔØ.

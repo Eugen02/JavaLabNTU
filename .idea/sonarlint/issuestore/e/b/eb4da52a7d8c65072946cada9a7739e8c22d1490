@@ -1,0 +1,14 @@
+
+o
+java:S37761"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(æ€éÓ8ŞÚÃÎØ.
+l
+java:S2095$"OUse try-with-resources or close this "ObjectInputStream" in a "finally" clause.(ß¹Ï8ŞÚÃÎØ.
+r
+java:S2095"PUse try-with-resources or close this "ObjectOutputStream" in a "finally" clause.(–ñæªûÿÿÿÿ8ŞÚÃÎØ.
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(–Ä¸œûÿÿÿÿ
+‡
+java:S1149"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(¡Í—˜şÿÿÿÿ8ŞÚÃÎØ.
+
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(»˜ç8ŞÚÃÎØ.
+Q
+java:S3740"/Provide the parametrized type for this generic.(¡Í—˜şÿÿÿÿ8ŞÚÃÎØ.

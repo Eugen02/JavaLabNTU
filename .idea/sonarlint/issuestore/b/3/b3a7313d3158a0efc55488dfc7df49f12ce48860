@@ -1,0 +1,6 @@
+
+‚
+java:S1149"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(œšâ8Õ«÷ÓØ.
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ëƒ‹üÿÿÿÿ
+L
+java:S3740"/Provide the parametrized type for this generic.(œšâ8Õ«÷ÓØ.

@@ -1,0 +1,14 @@
+
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ëƒ‹üÿÿÿÿ
+[
+java:S3516\"9Refactor this method to not always return the same value.(§·°Ûøÿÿÿÿ8ÃÀÜÕØ.
+a
+java:S2259c"?A "NullPointerException" could be thrown; "c" is nullable here.(ù»ªòøÿÿÿÿ8ÃÀÜÕØ.
+p
+java:S2095,"NUse try-with-resources or close this "FileOutputStream" in a "finally" clause.(Í—á½şÿÿÿÿ8ŞÏßÕØ.
+p
+java:S2095Q"NUse try-with-resources or close this "DataOutputStream" in a "finally" clause.(Íø­Éıÿÿÿÿ8°òßÕØ.
+l
+java:S1192."JDefine a constant instead of duplicating this literal "I/O error" 3 times.(îòÀåøÿÿÿÿ8ÃÀÜÕØ.
+K
+java:S1481^")Remove this unused "type" local variable.(Êµæûÿÿÿÿ8ÃÀÜÕØ.

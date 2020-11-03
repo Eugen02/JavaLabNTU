@@ -1,2 +1,8 @@
 
+o	java:S100."NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ð—ä üÿÿÿÿ8Ó––ÌØ.
+j	java:S100@"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»õÍ‹8Ó––ÌØ.
+o	java:S100F"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Î®’ùùÿÿÿÿ8Ó––ÌØ.
 t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(³œŸòùÿÿÿÿ
+j	java:S1004"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¤ã˜ü8Ó––ÌØ.
+W
+java:S1161&":Add the "@Override" annotation above this method signature(Á»›ê8Æö™ÏØ.
