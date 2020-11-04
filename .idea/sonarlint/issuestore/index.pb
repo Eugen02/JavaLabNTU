@@ -160,3 +160,5 @@ N
 src/finalProjectWork/Demo.java,b\4\b443e510033f99e13575f0dea4ff6ad1391785b0
 P
  src/finalProjectWork/Matrix.java,b\b\bb834d66c2e2327ed189bc24ddc14a75fec76d94
+Y
+)src/finalProjectWork/MatrixException.java,1\9\1999ca104d917be4f3b8f146f4faa83d1a529f0d
