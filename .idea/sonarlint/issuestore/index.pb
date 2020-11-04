@@ -156,3 +156,7 @@ C
 src/lab9/util2.java,b\1\b1eecbe7ce1a2d582f840abe6edeb976547d1ccf
 H
 src/lab9/WeightGood.java,2\d\2d42753c8ac8a6ed568ea62e76e4d840585ac352
+N
+src/finalProjectWork/Demo.java,b\4\b443e510033f99e13575f0dea4ff6ad1391785b0
+P
+ src/finalProjectWork/Matrix.java,b\b\bb834d66c2e2327ed189bc24ddc14a75fec76d94
