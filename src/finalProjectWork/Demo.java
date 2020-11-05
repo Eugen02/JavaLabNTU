@@ -25,7 +25,7 @@ public class Demo {
         Iterator<Object> iter = matrix.iterator();
         while(iter.hasNext()){
             if (i == matrix.getSize()){
-                System.out.println();
+                System.out.print(System.lineSeparator());
                 i=0;
             }
             System.out.printf("%8s",iter.next());
