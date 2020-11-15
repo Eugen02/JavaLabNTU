@@ -1,10 +1,9 @@
 
-‘
-java:S1130"uRemove the declaration of thrown exception 'lab9.ProductNotFreeException', as it cannot be thrown from method's body.(¿ÀŒ|8¡é«ÙØ.
-n	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ø¥òüÿÿÿÿ8¼ôÏØØ.
 P
 java:S1121".Extract the assignment out of this expression.(¡ï«üÿÿÿÿ8¼ôÏØØ.
+‘
+java:S1130"uRemove the declaration of thrown exception 'lab9.ProductNotFreeException', as it cannot be thrown from method's body.(¿ÀŒ|8¡é«ÙØ.
 o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(õû»Á
-C	java:S131""Add a default case to this switch.(¡ï«üÿÿÿÿ8¼ôÏØØ.
+n	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ø¥òüÿÿÿÿ8¼ôÏØØ.
 
 java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.( òÅÓ8¼ôÏØØ.

@@ -1,49 +1,49 @@
 
-w
-java:S1488‚"YImmediately return this expression instead of assigning it to the temporary variable "c".(áŒÒ…8¡‰×ÖØ.
-?
-java:S1118"Hide this public constructor.(ô—¼àÿÿÿÿÿ8¡‰×ÖØ.
-j
-java:S2095Ï"LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(»ÊæÒ8¡‰×ÖØ.
-K	java:S108Ã")Either remove or fill this block of code.(ÄÈÕøûÿÿÿÿ8¡‰×ÖØ.
-‚
-java:S1149c"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(Ëßª˜8¡‰×ÖØ.
-d
-java:S2259Æ"AA "NullPointerException" could be thrown; "ans" is nullable here.(”—³šûÿÿÿÿ8æ–øÙØ.
-ˆ
-java:S1149¤"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(ˆ†þÓþÿÿÿÿ8¡‰×ÖØ.
-‡
-java:S1130"jRemove the declaration of thrown exception 'java.lang.NumberFormatException' which is a runtime exception.(óž»’8¡‰×ÖØ.
-R
-java:S3740¤"/Provide the parametrized type for this generic.(ˆ†þÓþÿÿÿÿ8¡‰×ÖØ.
-£
-java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ô—¼àÿÿÿÿÿ8¡‰×ÖØ.
-ˆ
-java:S1149¤"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(ˆ†þÓþÿÿÿÿ8¡‰×ÖØ.
-R
-java:S1874´"/Remove this use of "getDate"; it is deprecated.(­¯ÀÙþÿÿÿÿ8¡‰×ÖØ.
-o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(õû»Á
-L
-java:S1874®"/Remove this use of "getYear"; it is deprecated.(•±Ø<8¡‰×ÖØ.
 s
 java:S2095‹"PUse try-with-resources or close this "ObjectOutputStream" in a "finally" clause.(–ñæªûÿÿÿÿ8¡‰×ÖØ.
+R
+java:S1874´"/Remove this use of "getDate"; it is deprecated.(­¯ÀÙþÿÿÿÿ8¡‰×ÖØ.
 >
 java:S1643,"Use a StringBuilder instead.(ÿ›Ž¨üÿÿÿÿ8¡‰×ÖØ.
 J
 java:S1874‚",Remove this use of "Date"; it is deprecated.(áŒÒ…8¡‰×ÖØ.
-R
-java:S3740¤"/Provide the parametrized type for this generic.(ˆ†þÓþÿÿÿÿ8¡‰×ÖØ.
-N
-java:S1874¯"0Remove this use of "getMonth"; it is deprecated.(»Ü¸¼8¡‰×ÖØ.
 Œ
 java:S1130"jRemove the declaration of thrown exception 'java.lang.NumberFormatException' which is a runtime exception.(“÷ðòùÿÿÿÿ8¡‰×ÖØ.
+R
+java:S3740¤"/Provide the parametrized type for this generic.(ˆ†þÓþÿÿÿÿ8¡‰×ÖØ.
+d
+java:S2259Æ"AA "NullPointerException" could be thrown; "ans" is nullable here.(”—³šûÿÿÿÿ8æ–øÙØ.
+‡
+java:S1130"jRemove the declaration of thrown exception 'java.lang.NumberFormatException' which is a runtime exception.(óž»’8¡‰×ÖØ.
 C
 java:S1905®"&Remove this unnecessary cast to "int".(•±Ø<8¡‰×ÖØ.
-L
-java:S3740c"/Provide the parametrized type for this generic.(Ëßª˜8¡‰×ÖØ.
-h	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(˜§Ó98¡‰×ÖØ.
-p	java:S100­"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Øæˆýÿÿÿÿ8¡‰×ÖØ.
-k
-java:S2095Ï"MUse try-with-resources or close this "FileInputStream" in a "finally" clause.(»ÊæÒ8¡‰×ÖØ.
+K	java:S108Ã")Either remove or fill this block of code.(ÄÈÕøûÿÿÿÿ8¡‰×ÖØ.
+R
+java:S3740¤"/Provide the parametrized type for this generic.(ˆ†þÓþÿÿÿÿ8¡‰×ÖØ.
 m
 java:S2095š"OUse try-with-resources or close this "ObjectInputStream" in a "finally" clause.(ß¹Ïž8¡‰×ÖØ.
+p	java:S100­"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Øæˆýÿÿÿÿ8¡‰×ÖØ.
+?
+java:S1118"Hide this public constructor.(ô—¼àÿÿÿÿÿ8¡‰×ÖØ.
+k
+java:S2095Ï"MUse try-with-resources or close this "FileInputStream" in a "finally" clause.(»ÊæÒ8¡‰×ÖØ.
+j
+java:S2095Ï"LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(»ÊæÒ8¡‰×ÖØ.
+£
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ô—¼àÿÿÿÿÿ8¡‰×ÖØ.
+h	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(˜§Ó98¡‰×ÖØ.
+L
+java:S3740c"/Provide the parametrized type for this generic.(Ëßª˜8¡‰×ÖØ.
+L
+java:S1874®"/Remove this use of "getYear"; it is deprecated.(•±Ø<8¡‰×ÖØ.
+ˆ
+java:S1149¤"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(ˆ†þÓþÿÿÿÿ8¡‰×ÖØ.
+ˆ
+java:S1149¤"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(ˆ†þÓþÿÿÿÿ8¡‰×ÖØ.
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(õû»Á
+N
+java:S1874¯"0Remove this use of "getMonth"; it is deprecated.(»Ü¸¼8¡‰×ÖØ.
+w
+java:S1488‚"YImmediately return this expression instead of assigning it to the temporary variable "c".(áŒÒ…8¡‰×ÖØ.
+‚
+java:S1149c"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(Ëßª˜8¡‰×ÖØ.

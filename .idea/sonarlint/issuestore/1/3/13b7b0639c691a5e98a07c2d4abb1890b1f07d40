@@ -1,11 +1,11 @@
 
+
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¿íã8œ³ÍÎØ.
 X
 java:S1119";Refactor the code to remove this label and the need for it.(×¹‰Õ8œ³ÍÎØ.
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(–Ä¸œûÿÿÿÿ
 o
 java:S3776"RRefactor this method to reduce its Cognitive Complexity from 85 to the 15 allowed.(ãìœ8œ³ÍÎØ.
 C	java:S131""Add a default case to this switch.(õÙÆ‚úÿÿÿÿ8œ³ÍÎØ.
-
-java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¿íã8œ³ÍÎØ.
-t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(–Ä¸œûÿÿÿÿ
 :
 java:S1118"Hide this public constructor.(¿íã8œ³ÍÎØ.

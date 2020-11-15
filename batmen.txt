@@ -1,0 +1,7 @@
+id=6
+name=WeightSecond
+amount=62
+price=42.6
+type=WeightGood
+minWeightOpt=20.0
+priceOpt=39.0

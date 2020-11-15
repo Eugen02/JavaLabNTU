@@ -1,26 +1,26 @@
 
-g
-java:S1192e"JDefine a constant instead of duplicating this literal "I/O error" 4 times.(àŠÛæ8¦‰ ÎØ.
-p
-java:S3776Ÿ"RRefactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.(À‹º‡8ËÁµÎØ.
-M
-java:S1905Ê"*Remove this unnecessary cast to "Product".(Şàİ®şÿÿÿÿ8ËÁµÎØ.
-q
-java:S2095Ü"NUse try-with-resources or close this "FileOutputStream" in a "finally" clause.(Í—á½şÿÿÿÿ8’ˆ·ÎØ.
-M
-java:S1905Â"*Remove this unnecessary cast to "Product".(¬ƒ²–üÿÿÿÿ8ËÁµÎØ.
 H
 java:S1905Í"*Remove this unnecessary cast to "Product".(ûëŠ½8ËÁµÎØ.
 H
 java:S1905Æ"*Remove this unnecessary cast to "Product".(Í”Ì¨8ËÁµÎØ.
 p
 java:S2095Q"NUse try-with-resources or close this "DataOutputStream" in a "finally" clause.(Íø­Éıÿÿÿÿ8Öá¤ÎØ.
-k
-java:S2095¨"MUse try-with-resources or close this "FileInputStream" in a "finally" clause.(»ÊæÒ8ËÁµÎØ.
-j
-java:S2095p"MUse try-with-resources or close this "DataInputStream" in a "finally" clause.(Ïòœ·8ˆÒ­ÎØ.
+p
+java:S3776Ÿ"RRefactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.(À‹º‡8ËÁµÎØ.
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(–Ä¸œûÿÿÿÿ
 j
 java:S2095¨"LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(»ÊæÒ8ËÁµÎØ.
-t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(–Ä¸œûÿÿÿÿ
+k
+java:S2095¨"MUse try-with-resources or close this "FileInputStream" in a "finally" clause.(»ÊæÒ8ËÁµÎØ.
+g
+java:S1192e"JDefine a constant instead of duplicating this literal "I/O error" 4 times.(àŠÛæ8¦‰ ÎØ.
+q
+java:S2095Ü"NUse try-with-resources or close this "FileOutputStream" in a "finally" clause.(Í—á½şÿÿÿÿ8’ˆ·ÎØ.
 H
 java:S1905Ğ"*Remove this unnecessary cast to "Product".(î„èõ8ËÁµÎØ.
+j
+java:S2095p"MUse try-with-resources or close this "DataInputStream" in a "finally" clause.(Ïòœ·8ˆÒ­ÎØ.
+M
+java:S1905Â"*Remove this unnecessary cast to "Product".(¬ƒ²–üÿÿÿÿ8ËÁµÎØ.
+M
+java:S1905Ê"*Remove this unnecessary cast to "Product".(Şàİ®şÿÿÿÿ8ËÁµÎØ.

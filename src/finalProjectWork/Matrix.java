@@ -38,7 +38,7 @@ public class Matrix {
        for (int i = 0; i<size; i++){
            template = arrays.get(i);
            for (int j= 0; j<size; j++){
-               sb.append(template[j]+ "\t");
+               sb.append(template[j]).append("\t");
                if (template[j]!=null){
                    sb.append("\t");
                }
@@ -48,7 +48,7 @@ public class Matrix {
         System.out.println(sb.toString());
     }
 
-    public void getColumnRow(int column, int row){
+    public void printColumnRow(int column, int row){
         Integer[] array = arrays.get(column);
         if (array[row] == null){
             System.out.println("null");
@@ -67,16 +67,15 @@ public class Matrix {
         } else{
             array[row] = value;
             arrays.put(column,array);
-
         }
     }
 
     public void matrixSize(){
-        System.out.println(size + " x " + size);
+        System.out.println("Размерность матрицы = " + size + " x " + size);
     }
 
-    public void notEmptyElement(){
-        int notEmpty = 0;
+    public void printNotEmptyElement(){
+        int countNotEmpty = 0;
         Integer[] array;
         for (int i = 0; i<size; i++){
             array = arrays.get(i);
@@ -85,15 +84,15 @@ public class Matrix {
                     continue;
                 }
                 if (array[j] != 0){
-                    notEmpty++;
+                    countNotEmpty++;
                 }
             }
         }
-        System.out.println("Not empty elements = " + notEmpty);
+        System.out.println("Not empty elements = " + countNotEmpty);
     }
 
-    public void notEmptyElementColumn(int column){
-        int template = 0;
+    public void printNotEmptyElementColumn(int column){
+        int countNotEmptyColumn = 0;
         Integer[] array;
         for (int i = 0; i<size; i++){
             array = arrays.get(i);
@@ -102,13 +101,13 @@ public class Matrix {
                     continue;
                 }
                 if (array[j] != 0 && j==column){
-                    template++;
+                    countNotEmptyColumn++;
                 }
             }
         }
-        System.out.println("Not empty elements in column = " + template);
+        System.out.println("Not empty elements in column = " + countNotEmptyColumn);
     }
-    public void notEmptyElementRow(int row) {
+    public void printNotEmptyElementRow(int row) {
         int template = 0;
         Integer[] array = arrays.get(row);
         for (int i = 0; i < size; i++) {
@@ -122,7 +121,7 @@ public class Matrix {
         System.out.println("Not empty elements in row = " + template);
     }
 
-    public void emptyElement(){
+    public void printEmptyElement(){
             int Empty = 0;
             Integer[] array;
             for (int i = 0; i<size; i++){
@@ -140,7 +139,7 @@ public class Matrix {
         System.out.println("Empty elements (null too) = " + Empty);
     }
 
-    public void emptyElementRow(int row) {
+    public void printEmptyElementRow(int row) {
         int template = 0;
         Integer[] array = arrays.get(row);
         for (int i = 0; i < size; i++) {
@@ -155,7 +154,7 @@ public class Matrix {
     }
 
 
-    public void emptyElementColumn(int column){
+    public void printEmptyElementColumn(int column){
         int template = 0;
         Integer[] array;
         for (int i = 0; i<size; i++){
@@ -179,8 +178,8 @@ public class Matrix {
 
     private class IteratorMatrix implements Iterator<Object> {
        int size = getSize();
-       int cursor1;
-       int cursor2;
+        int cursor1;
+        int cursor2;
        int lastRet = -1;
         Map<Integer,Integer[]> arrays = getArrays();
         Integer[] array;
@@ -203,10 +202,13 @@ public class Matrix {
             cursor2 = i + 1;
             lastRet = i;
             array = arrays.get(cursor1);
-            if (lastRet == 4 && cursor1 == 4){
+            if (lastRet == size-1 && cursor1 == size-1){
                 cursor1 = size;
                 return  array[lastRet];
             }
+//            if (array[lastRet] == null){
+//                return " ";
+//            }
             return   array[lastRet];
         }
     }
@@ -222,6 +224,9 @@ public class Matrix {
         sb.append(System.lineSeparator()).append('[');
         for (;;) {
             Object e = objectIterator.next();
+            if (e == " "){
+                e = null;
+            }
             sb.append(e == this ? "(this Collection)" : e);
             if (! objectIterator.hasNext())
                 return sb.append(']').toString();
@@ -234,32 +239,4 @@ public class Matrix {
             sb.append(", ");}}
     }
 
-
-
 }
-//
-//    int[] array;
-//    int size;
-//
-//    public Matrix(){ }
-//
-//    public Matrix(int size) {
-//        this.size = size;
-//        array = new int[size*size];
-//    }
-//
-//    public void setArray(){
-//        for (int i = 0; i<size;i++){
-//            for (int j = 0; j<size; j++){
-//
-//            }
-//        }
-//    }
-//
-//
-//    public void print(){
-//        Arrays.stream(array)
-//               .forEach(out::println);
-//    }
-//
-//}
