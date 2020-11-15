@@ -1,4 +1,4 @@
 
-t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ëƒž‹üÿÿÿÿ
 <
 java:S3010"Remove this assignment of "pr".(¹Á´—8 øÖØ.
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ëƒž‹üÿÿÿÿ

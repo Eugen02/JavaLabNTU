@@ -28,9 +28,12 @@ public class demo9 {
                     break;
                 case 3:
                     util2.monitorE(e, a, c);
+                    break;
+                default:
+                    break;
             }
         }
 
-        cpage.getOut().println("Роботу закiінчено");
+        cpage.getOut().println("Роботу закінчено");
     }
 }

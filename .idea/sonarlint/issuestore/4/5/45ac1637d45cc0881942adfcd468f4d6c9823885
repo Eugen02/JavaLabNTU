@@ -1,28 +1,28 @@
 
-j
-java:S2095©"LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(»ÊæÒ8ôæùÔØ.
-j
-java:S2095p"MUse try-with-resources or close this "DataInputStream" in a "finally" clause.(Ïòœ·8ö¥öÔØ.
-p
-java:S2095Q"NUse try-with-resources or close this "DataOutputStream" in a "finally" clause.(Íø­Éıÿÿÿÿ8ÈôëÔØ.
-k
-java:S2095©"MUse try-with-resources or close this "FileInputStream" in a "finally" clause.(»ÊæÒ8Î¼ùÔØ.
-q
-java:S2095İ"NUse try-with-resources or close this "FileOutputStream" in a "finally" clause.(Í—á½şÿÿÿÿ8Î¼ùÔØ.
-p
-java:S3776 "RRefactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.(À‹º‡8Î¼ùÔØ.
-H
-java:S1905Ç"*Remove this unnecessary cast to "Product".(Í”Ì¨8Î¼ùÔØ.
-H
-java:S1905Ñ"*Remove this unnecessary cast to "Product".(î„èõ8Î¼ùÔØ.
 M
 java:S1905Ë"*Remove this unnecessary cast to "Product".(Şàİ®şÿÿÿÿ8Î¼ùÔØ.
+H
+java:S1905Ñ"*Remove this unnecessary cast to "Product".(î„èõ8Î¼ùÔØ.
 q
 java:S3038"S"justString" is defined in the "Item" interface and can be removed from this class.(ÁÕı›8¢É´ÖØ.
-t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ëƒ‹üÿÿÿÿ
-M
-java:S1905Ã"*Remove this unnecessary cast to "Product".(¬ƒ²–üÿÿÿÿ8Î¼ùÔØ.
+p
+java:S3776 "RRefactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.(À‹º‡8Î¼ùÔØ.
+p
+java:S2095Q"NUse try-with-resources or close this "DataOutputStream" in a "finally" clause.(Íø­Éıÿÿÿÿ8ÈôëÔØ.
 H
 java:S1905Î"*Remove this unnecessary cast to "Product".(ûëŠ½8Î¼ùÔØ.
+M
+java:S1905Ã"*Remove this unnecessary cast to "Product".(¬ƒ²–üÿÿÿÿ8Î¼ùÔØ.
+j
+java:S2095©"LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(»ÊæÒ8ôæùÔØ.
+k
+java:S2095©"MUse try-with-resources or close this "FileInputStream" in a "finally" clause.(»ÊæÒ8Î¼ùÔØ.
 g
 java:S1192e"JDefine a constant instead of duplicating this literal "I/O error" 4 times.(àŠÛæ8ÈôëÔØ.
+j
+java:S2095p"MUse try-with-resources or close this "DataInputStream" in a "finally" clause.(Ïòœ·8ö¥öÔØ.
+H
+java:S1905Ç"*Remove this unnecessary cast to "Product".(Í”Ì¨8Î¼ùÔØ.
+q
+java:S2095İ"NUse try-with-resources or close this "FileOutputStream" in a "finally" clause.(Í—á½şÿÿÿÿ8Î¼ùÔØ.
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ëƒ‹üÿÿÿÿ

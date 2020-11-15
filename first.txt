@@ -1,7 +1,7 @@
-id=2
-name=2
-amount=2
-price=2.0
+id=1
+name=1
+amount=1
+price=1.0
 type=PieceGood
-minAmount=2
-priceOpt=2.0
+minAmount=1
+priceOpt=1.0
