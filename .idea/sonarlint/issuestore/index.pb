@@ -145,5 +145,7 @@ P
  src/finalProjectWork/Matrix.java,b\b\bb834d66c2e2327ed189bc24ddc14a75fec76d94
 Y
 )src/finalProjectWork/MatrixException.java,1\9\1999ca104d917be4f3b8f146f4faa83d1a529f0d
-8
-amba.txt,4\c\4cd9d01f945fb2175e262110eae0f59b1d033348
+C
+src/lab0/Demo1.java,c\e\cee6ac466bda70f19531e3304cc0e122dfd564d2
+F
+src/lab0/Product1.java,b\a\bada7f69adab06916bfdb2bf36b31e6312580637

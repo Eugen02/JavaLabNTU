@@ -1,7 +1,0 @@
-id=1
-name=PieceFirst
-amount=1
-price=1.0
-type=PieceGood
-minAmount=5
-priceOpt=0.5

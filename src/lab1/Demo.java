@@ -1,8 +1,12 @@
 package lab1;
 
+import java.util.Scanner;
+
 public class Demo {
     public static void main (String argv[])
     {
+        Scanner sc = new Scanner(System.in);
+
         Product a1 = new Product();
         ProductRepres ar = Product.getTerminalRepres();
         a1.setId(1);
@@ -19,6 +23,14 @@ public class Demo {
         ar.printCard(a4);
         Product a5 = new Product();
         if (!ProductRepres.kbInput(a5)) a5 = new Product();
+        String a = sc.next();
+        a5.setId(Integer.parseInt(a));
+        a = sc.next();
+        a5.setPrice(Double.parseDouble(a));
+        a = sc.next();
+        a5.setAmount(Integer.parseInt(a));
+        a = sc.next();
+        a5.setName(a);
         ar.printLine(a1);
         ar.printLine(a2);
         ar.printLine(a3);

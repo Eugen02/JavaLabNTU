@@ -1,7 +1,0 @@
-id=2
-name=PieceSecond
-amount=2
-price=2.0
-type=PieceGood
-minAmount=10
-priceOpt=1.0
