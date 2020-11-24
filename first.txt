@@ -1,7 +1,0 @@
-id=1
-name=1
-amount=1
-price=1.0
-type=PieceGood
-minAmount=1
-priceOpt=1.0

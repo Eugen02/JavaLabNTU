@@ -1,8 +1,0 @@
-id=4
-name=PrepackSecond
-amount=59
-price=123.3
-type=PrepackagedGoods
-amountInOnePackage=123
-amountPackageInOnePart=12300
-packagePrice=12399.0

@@ -46,7 +46,7 @@ public class util2 {
                         if ((num = util.getNum(e)) >= 0) {
                             tmpe = e.elementAt(num);
                             Repres tmpr1 = Product.getTerminalRepres();
-                            tmpi1 = tmpe.getAnimal();
+                            tmpi1 = tmpe.getProduct();
                             tmpr1.printCard(tmpi1);
                         }
                         break;
@@ -87,7 +87,7 @@ public class util2 {
                             break;
                         }
 
-                        tmpe.getAnimal().setFree(false);
+                        tmpe.getProduct().setFree(false);
                         tmpe.getCage().setFree(false);
                         e.add(tmpe);
                         cpage.getOut().println("OK!");
@@ -95,7 +95,7 @@ public class util2 {
                     case 5:
                         if ((num = util.getNum(e)) >= 0) {
                             tmpe = e.elementAt(num);
-                            tmpe.getAnimal().setFree(true);
+                            tmpe.getProduct().setFree(true);
                             tmpe.getCage().setFree(true);
                             e.removeElementAt(num);
                             cpage.getOut().println("OK!");

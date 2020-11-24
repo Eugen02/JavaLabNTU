@@ -1,28 +1,28 @@
 
-L
-java:S1905o"*Remove this unnecessary cast to "Product".(¬ƒ²–üÿÿÿÿ8õÊòÖØ.
-u
-java:S3038×"W"justString" is defined in the "Iproduct" interface and can be removed from this class.(ÁÕı›8®î®ÙØ.
-g
-java:S1192Z"JDefine a constant instead of duplicating this literal "I/O error" 4 times.(àŠÛæ8©ªòÖØ.
-L
-java:S1905w"*Remove this unnecessary cast to "Product".(Şàİ®şÿÿÿÿ8õÊòÖØ.
-i
-java:S2095U"LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(»ÊæÒ8õÊòÖØ.
-q
-java:S2095Š"NUse try-with-resources or close this "DataOutputStream" in a "finally" clause.(Íø­Éıÿÿÿÿ8©ªòÖØ.
-o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(õû»Á
 G
 java:S1905s"*Remove this unnecessary cast to "Product".(Í”Ì¨8õÊòÖØ.
-q
-java:S2095Ü"NUse try-with-resources or close this "FileOutputStream" in a "finally" clause.(Í—á½şÿÿÿÿ8©éøÖØ.
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(õû»Á
+g
+java:S1192Z"JDefine a constant instead of duplicating this literal "I/O error" 4 times.(àŠÛæ8©ªòÖØ.
+j
+java:S2095U"MUse try-with-resources or close this "FileInputStream" in a "finally" clause.(»ÊæÒ8õÊòÖØ.
 k
 java:S2095©"MUse try-with-resources or close this "DataInputStream" in a "finally" clause.(Ïòœ·8ášôÖØ.
 o
 java:S3776L"RRefactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.(À‹º‡8õÊòÖØ.
+q
+java:S2095Ü"NUse try-with-resources or close this "FileOutputStream" in a "finally" clause.(Í—á½şÿÿÿÿ8©éøÖØ.
+L
+java:S1905w"*Remove this unnecessary cast to "Product".(Şàİ®şÿÿÿÿ8õÊòÖØ.
+q
+java:S2095Š"NUse try-with-resources or close this "DataOutputStream" in a "finally" clause.(Íø­Éıÿÿÿÿ8©ªòÖØ.
 G
 java:S1905z"*Remove this unnecessary cast to "Product".(ûëŠ½8õÊòÖØ.
+u
+java:S3038×"W"justString" is defined in the "Iproduct" interface and can be removed from this class.(ÁÕı›8®î®ÙØ.
 G
 java:S1905}"*Remove this unnecessary cast to "Product".(î„èõ8õÊòÖØ.
-j
-java:S2095U"MUse try-with-resources or close this "FileInputStream" in a "finally" clause.(»ÊæÒ8õÊòÖØ.
+L
+java:S1905o"*Remove this unnecessary cast to "Product".(¬ƒ²–üÿÿÿÿ8õÊòÖØ.
+i
+java:S2095U"LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(»ÊæÒ8õÊòÖØ.

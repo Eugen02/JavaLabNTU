@@ -1,20 +1,21 @@
-package lab1;
+package lab0;
 
-public class Product {
+
+public class Product1 {
     private int id;
     private String name;
     private int amount;
     private double price;
-    public Product(){ }
+    public Product1(){ }
 
-    public Product(int id, String name, int amount, double price) {
+    public Product1(int id, String name, int amount, double price) {
         this.id = id;
         this.name = name;
         this.amount = amount;
         this.price = price;
     }
 
-    public Product(int id, String name, int amount) {
+    public Product1(int id, String name, int amount) {
         this.id = id;
         this.name = name;
         this.amount = amount;
@@ -62,10 +63,14 @@ public class Product {
                 '}';
     }
 
-    public static ProductRepres getTerminalRepres()
+    public static void printCard(Product1 a)
     {
-        return ProductRepres.getInstance();
-    }
+        System.out.print("\nID        >"+a.getId());
+        System.out.print("\nIм'я      >"+a.getName());
+        System.out.print("\nКількість >"+a.getAmount());
+        System.out.print("\nЦіна      >"+a.getPrice());
 
+        System.out.println();
+    }
 
 }

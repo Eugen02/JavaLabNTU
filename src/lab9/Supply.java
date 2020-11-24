@@ -5,7 +5,6 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.ObjectOutputStream;
 import java.io.Serializable;
-import java.util.Date;
 
 public class Supply implements Iproduct, Iprovider, Serializable {
     Product this_Product = null;
@@ -15,7 +14,7 @@ public class Supply implements Iproduct, Iprovider, Serializable {
     public Supply() {
     }
 
-    public Product getAnimal() {
+    public Product getProduct() {
         return this.this_Product;
     }
 
@@ -194,7 +193,7 @@ public class Supply implements Iproduct, Iprovider, Serializable {
     }
 
     public int comp1(Item a) {
-        return this.this_Product.comp1(((Supply)a).getAnimal());
+        return this.this_Product.comp1(((Supply)a).getProduct());
     }
 
     public int comp2(Item a) {

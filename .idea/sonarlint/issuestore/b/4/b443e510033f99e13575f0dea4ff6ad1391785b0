@@ -1,34 +1,38 @@
 
-O
-java:S1199q"-Extract this nested code block into a method.(ÿÅÖ²ÿÿÿÿÿ8ÆŒªÛ.
+|
+java:S1192,"_Define a constant instead of duplicating this literal "Ğ’Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ ÑÑ‚Ñ€Ğ¾ĞºÑƒ = " 3 times.(òßúğ8ş¡üãÜ.
 P
-java:S1199Œ"-Extract this nested code block into a method.(ı´ª¿ûÿÿÿÿ8ÆŒªÛ.
-O
-java:S1199)"-Extract this nested code block into a method.(ğÁ–Óûÿÿÿÿ8’§¯ÆÚ.
-K
-java:S1199Ÿ"-Extract this nested code block into a method.(…ß¾£8ÆŒªÛ.
-o
-java:S3776"RRefactor this method to reduce its Cognitive Complexity from 49 to the 15 allowed.(Çµí‘8ÿ´„ÇÚ.
-J
-java:S1199E"-Extract this nested code block into a method.(ÎŞèº8ÆŒªÛ.
-J
-java:S1199V"-Extract this nested code block into a method.(îÒ«Â8ÆŒªÛ.
-J
-java:S1199i"-Extract this nested code block into a method.(­Ó–Ô8ÆŒªÛ.
+java:S1199"-Extract this nested code block into a method.(ê×Êüÿÿÿÿ8ş¡üãÜ.
 P
-java:S1199ƒ"-Extract this nested code block into a method.(ÈŞÀşıÿÿÿÿ8ÆŒªÛ.
-O
-java:S11998"-Extract this nested code block into a method.(úÀôãùÿÿÿÿ8ÆŒªÛ.
-O
-java:S1199z"-Extract this nested code block into a method.(ê×Êüÿÿÿÿ8ÆŒªÛ.
+java:S1199Œ"-Extract this nested code block into a method.(ÈŞÀşıÿÿÿÿ8ş¡üãÜ.
 J
-java:S1199N"-Extract this nested code block into a method.(Ó‚ï8ÆŒªÛ.
+java:S1199a"-Extract this nested code block into a method.(ô‹Êâ8ş¡üãÜ.
+O
+java:S1199"-Extract this nested code block into a method.(·ÿ½äûÿÿÿÿ8ş¡üãÜ.
 J
-java:S1199_"-Extract this nested code block into a method.(ô‹Êâ8ÆŒªÛ.
+java:S1199V"-Extract this nested code block into a method.(îÒ«Â8ş¡üãÜ.
 P
-java:S1199©"-Extract this nested code block into a method.(Î—­Šşÿÿÿÿ8ÆŒªÛ.
+java:S1199•"-Extract this nested code block into a method.(ı´ª¿ûÿÿÿÿ8ş¡üãÜ.
+P
+java:S1199²"-Extract this nested code block into a method.(Î—­Šşÿÿÿÿ8ş¡üãÜ.
 n	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(“‰ÚB
-¾
-java:S1192," Define a constant instead of duplicating this literal "Ğ£ÑÑ‚Ğ°Ğ½Ğ¾Ğ²Ğ»ĞµĞ½Ğ½Ğ° Ñ€Ğ°Ğ·Ğ¼ĞµÑ€Ğ½Ğ¾ÑÑŒ Ğ¼Ğ°Ñ‚Ñ€Ğ¸Ñ†Ñ‹ Ğ¿Ğ¾ ÑƒĞ¼Ğ¾Ğ»Ñ‡Ğ°Ğ½Ğ¸Ñ (5 Ñ… 5) " 12 times.(‹—¿ï8şƒ…ÇÚ.
+o
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 69 to the 15 allowed.(Çµí‘8ş¡üãÜ.
+J
+java:S1199m"-Extract this nested code block into a method.(­Ó–Ô8ş¡üãÜ.
+ƒ
+java:S1192."aDefine a constant instead of duplicating this literal "Ğ’Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ ĞºĞ¾Ğ»Ğ¾Ğ½ĞºÑƒ = " 4 times.(—óÚüÿÿÿÿ8ş¡üãÜ.
+K
+java:S1199¨"-Extract this nested code block into a method.(…ß¾£8ş¡üãÜ.
 O
-java:S1199"-Extract this nested code block into a method.(·ÿ½äûÿÿÿÿ8’§¯ÆÚ.
+java:S1199u"-Extract this nested code block into a method.(ÿÅÖ²ÿÿÿÿÿ8ş¡üãÜ.
+J
+java:S1199E"-Extract this nested code block into a method.(ÎŞèº8ş¡üãÜ.
+O
+java:S11997"-Extract this nested code block into a method.(úÀôãùÿÿÿÿ8ş¡üãÜ.
+¾
+java:S1192*" Define a constant instead of duplicating this literal "Ğ£ÑÑ‚Ğ°Ğ½Ğ¾Ğ²Ğ»ĞµĞ½Ğ½Ğ° Ñ€Ğ°Ğ·Ğ¼ĞµÑ€Ğ½Ğ¾ÑÑŒ Ğ¼Ğ°Ñ‚Ñ€Ğ¸Ñ†Ñ‹ Ğ¿Ğ¾ ÑƒĞ¼Ğ¾Ğ»Ñ‡Ğ°Ğ½Ğ¸Ñ (5 Ñ… 5) " 11 times.(‹—¿ï8ş¡üãÜ.
+O
+java:S1199'"-Extract this nested code block into a method.(ğÁ–Óûÿÿÿÿ8ş¡üãÜ.
+J
+java:S1199N"-Extract this nested code block into a method.(Ó‚ï8ş¡üãÜ.
