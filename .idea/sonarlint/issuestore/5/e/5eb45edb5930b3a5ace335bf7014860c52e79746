@@ -1,26 +1,26 @@
 
-t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(³œŸòùÿÿÿÿ
+H
+java:S1905š"*Remove this unnecessary cast to "Product".(ûëŠ½8»£ïÈØ.
 M
-java:S1905–"*Remove this unnecessary cast to "Product".(Şàİ®şÿÿÿÿ8 ÜèÈØ.
-j
-java:S2095t"MUse try-with-resources or close this "FileInputStream" in a "finally" clause.(»ÊæÒ8»£ïÈØ.
-q
-java:S2095©"NUse try-with-resources or close this "DataOutputStream" in a "finally" clause.(Íø­Éıÿÿÿÿ8şÄÏÈØ.
-o
-java:S3776k"RRefactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.(À‹º‡8ÄíˆÈØ.
-i
-java:S2095t"LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(»ÊæÒ8»£ïÈØ.
-H
-java:S1905œ"*Remove this unnecessary cast to "Product".(î„èõ8»£ïÈØ.
-p
-java:S2095S"NUse try-with-resources or close this "FileOutputStream" in a "finally" clause.(Í—á½şÿÿÿÿ8µÍÎÈØ.
-k
-java:S2095È"MUse try-with-resources or close this "DataInputStream" in a "finally" clause.(Ïòœ·8À´ĞÈØ.
-H
-java:S1905™"*Remove this unnecessary cast to "Product".(ûëŠ½8»£ïÈØ.
+java:S1905"*Remove this unnecessary cast to "Product".(¬ƒ²–üÿÿÿÿ8Û©èÈØ.
 g
-java:S1192U"JDefine a constant instead of duplicating this literal "I/O error" 4 times.(àŠÛæ8ÄíˆÈØ.
+java:S1192V"JDefine a constant instead of duplicating this literal "I/O error" 4 times.(àŠÛæ8ÄíˆÈØ.
 H
-java:S1905’"*Remove this unnecessary cast to "Product".(Í”Ì¨8 ÜèÈØ.
+java:S1905"*Remove this unnecessary cast to "Product".(î„èõ8»£ïÈØ.
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(³œŸòùÿÿÿÿ
+k
+java:S2095É"MUse try-with-resources or close this "DataInputStream" in a "finally" clause.(Ïòœ·8À´ĞÈØ.
+q
+java:S2095ª"NUse try-with-resources or close this "DataOutputStream" in a "finally" clause.(Íø­Éıÿÿÿÿ8şÄÏÈØ.
+H
+java:S1905“"*Remove this unnecessary cast to "Product".(Í”Ì¨8 ÜèÈØ.
+p
+java:S2095T"NUse try-with-resources or close this "FileOutputStream" in a "finally" clause.(Í—á½şÿÿÿÿ8µÍÎÈØ.
+i
+java:S2095u"LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(»ÊæÒ8»£ïÈØ.
 M
-java:S1905"*Remove this unnecessary cast to "Product".(¬ƒ²–üÿÿÿÿ8Û©èÈØ.
+java:S1905—"*Remove this unnecessary cast to "Product".(Şàİ®şÿÿÿÿ8 ÜèÈØ.
+o
+java:S3776l"RRefactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.(À‹º‡8ÄíˆÈØ.
+j
+java:S2095u"MUse try-with-resources or close this "FileInputStream" in a "finally" clause.(»ÊæÒ8»£ïÈØ.

@@ -1,10 +1,11 @@
 package lab4;
 import java.io.IOException;
 
-public class util {
+public class util { // клас який відповіда на коректне введення та вивід
     public util() {
     }
 
+    // методи для зручного питання про введення даної змінної
     public static short readShort(String text, short lb, short hb) throws NumberFormatException {
         short s = Short.parseShort(readString(text));
         if (s <= hb && s >= lb) {
@@ -14,6 +15,7 @@ public class util {
         }
     }
 
+    // методи редагування вивіду текста з лівого боку
     static String leftString(String s, int l) {
         if (s.length() > l) {
             s = s.substring(0, l);
@@ -61,6 +63,7 @@ public class util {
         }
     }
 
+    // методи для зручного питання про введення даної змінної
     public static String readString(String text) {
         String ans = null;
         cpage.getOut().print("Введiть " + text + ">");

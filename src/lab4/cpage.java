@@ -6,7 +6,7 @@ import java.io.OutputStreamWriter;
 import java.io.PrintWriter;
 import java.io.UnsupportedEncodingException;
 
-public final class cpage {
+public final class cpage { // класс який відповіда за коректний ввивід в юнікоді
     private static PrintWriter pr = null;
     private static BufferedReader br = null;
     private static String cp = null;
@@ -26,6 +26,7 @@ public final class cpage {
     public cpage() {
     }
 
+    // Встановлення кодингу файла
     public static void setCp(String acp) {
         if (acp != null) {
             cp = acp;

@@ -1,12 +1,11 @@
 
-£
-java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.( ãì†ùÿÿÿÿ8¾€˜ÄØ.
-t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(õ¾š´ÿÿÿÿÿ
-i	java:S101
-"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(©Åÿ8¾€˜ÄØ.
-U
-java:S4719"9Replace charset name argument with StandardCharsets.UTF_8(ç†Át8Ê™ÇØ.
+i	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(äó8¾€˜ÄØ.
 [
-java:S4719"9Replace charset name argument with StandardCharsets.UTF_8(ÅÅªêùÿÿÿÿ8Ê™ÇØ.
+java:S4719"9Replace charset name argument with StandardCharsets.UTF_8(ÅÅªêùÿÿÿÿ8Ê™ÇØ.
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(õ¾š´ÿÿÿÿÿ
+£
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.( ãì†ùÿÿÿÿ8¾€˜ÄØ.
 ?
-java:S1118"Hide this public constructor.( ãì†ùÿÿÿÿ8¾€˜ÄØ.
+java:S1118"Hide this public constructor.( ãì†ùÿÿÿÿ8¾€˜ÄØ.
+U
+java:S4719"9Replace charset name argument with StandardCharsets.UTF_8(ç†Át8Ê™ÇØ.

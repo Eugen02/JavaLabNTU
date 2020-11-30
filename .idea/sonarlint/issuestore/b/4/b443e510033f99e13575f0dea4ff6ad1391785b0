@@ -1,38 +1,36 @@
 
-|
-java:S1192,"_Define a constant instead of duplicating this literal "Π’Π²ΠµΠ΄ΠΈΡ‚Πµ ΡΡ‚Ρ€ΠΎΠΊΡƒ = " 3 times.(ςίϊπ8ώ΅όγά.
-P
-java:S1199"-Extract this nested code block into a method.(κΧΚόÿÿÿÿ8ώ΅όγά.
-P
-java:S1199"-Extract this nested code block into a method.(Θήΐώύÿÿÿÿ8ώ΅όγά.
 J
-java:S1199a"-Extract this nested code block into a method.(τ‹Κβ8ώ΅όγά.
+java:S1199J"-Extract this nested code block into a method.(Σ‚ο8ώ΅όγά.
+O
+java:S1199z"-Extract this nested code block into a method.(ύ΄ªΏϋÿÿÿÿ8ώ΅όγά.
+J
+java:S1199_"-Extract this nested code block into a method.(­Σ–Τ8ώ΅όγά.
+J
+java:S1199D"-Extract this nested code block into a method.(ΞήθΊ8ώ΅όγά.
+J
+java:S1199O"-Extract this nested code block into a method.(ξÒ«Β8ώ΅όγά.
+ƒ
+java:S1192+"aDefine a constant instead of duplicating this literal "Π’Π²ΠµΠ΄ΠΈΡ‚Πµ ΠΊΠΎΠ»ΠΎΠ½ΠΊΡƒ = " 4 times.(—σΪόÿÿÿÿ8ώ΅όγά.
+J
+java:S1199W"-Extract this nested code block into a method.(τ‹Κβ8ώ΅όγά.
+P
+java:S1199"-Extract this nested code block into a method.(Ξ—­ώÿÿÿÿ8ώ΅όγά.
 O
 java:S1199"-Extract this nested code block into a method.(·ÿ½δϋÿÿÿÿ8ώ΅όγά.
-J
-java:S1199V"-Extract this nested code block into a method.(ξÒ«Β8ώ΅όγά.
-P
-java:S1199•"-Extract this nested code block into a method.(ύ΄ªΏϋÿÿÿÿ8ώ΅όγά.
-P
-java:S1199²"-Extract this nested code block into a method.(Ξ—­ώÿÿÿÿ8ώ΅όγά.
-n	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(“‰ΪB
-o
-java:S3776"RRefactor this method to reduce its Cognitive Complexity from 69 to the 15 allowed.(Ηµν‘8ώ΅όγά.
-J
-java:S1199m"-Extract this nested code block into a method.(­Σ–Τ8ώ΅όγά.
-ƒ
-java:S1192."aDefine a constant instead of duplicating this literal "Π’Π²ΠµΠ΄ΠΈΡ‚Πµ ΠΊΠΎΠ»ΠΎΠ½ΠΊΡƒ = " 4 times.(—σΪόÿÿÿÿ8ώ΅όγά.
+O
+java:S11998"-Extract this nested code block into a method.(ϊΐτγωÿÿÿÿ8ώ΅όγά.
 K
-java:S1199¨"-Extract this nested code block into a method.(…ίΎ£8ώ΅όγά.
-O
-java:S1199u"-Extract this nested code block into a method.(ÿΕΦ²ÿÿÿÿÿ8ώ΅όγά.
-J
-java:S1199E"-Extract this nested code block into a method.(ΞήθΊ8ώ΅όγά.
-O
-java:S11997"-Extract this nested code block into a method.(ϊΐτγωÿÿÿÿ8ώ΅όγά.
-Ύ
-java:S1192*" Define a constant instead of duplicating this literal "Π£ΡΡ‚Π°Π½ΠΎΠ²Π»ΠµΠ½Π½Π° Ρ€Π°Π·ΠΌΠµΡ€Π½ΠΎΡΡ ΠΌΠ°Ρ‚Ρ€ΠΈΡ†Ρ‹ ΠΏΠΎ ΡƒΠΌΠΎΠ»Ρ‡Π°Π½ΠΈΡ (5 Ρ… 5) " 11 times.(‹—Ώο8ώ΅όγά.
+java:S1199‰"-Extract this nested code block into a method.(…ίΎ£8ώ΅όγά.
 O
 java:S1199'"-Extract this nested code block into a method.(πΑ–Σϋÿÿÿÿ8ώ΅όγά.
-J
-java:S1199N"-Extract this nested code block into a method.(Σ‚ο8ώ΅όγά.
+n	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(“‰ΪB
+o
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 36 to the 15 allowed.(Ηµν‘8ώ΅όγά.
+O
+java:S1199d"-Extract this nested code block into a method.(ÿΕΦ²ÿÿÿÿÿ8ώ΅όγά.
+O
+java:S1199l"-Extract this nested code block into a method.(κΧΚόÿÿÿÿ8ώ΅όγά.
+O
+java:S1199t"-Extract this nested code block into a method.(Θήΐώύÿÿÿÿ8ώ΅όγά.
+|
+java:S1192)"_Define a constant instead of duplicating this literal "Π’Π²ΠµΠ΄ΠΈΡ‚Πµ ΡΡ‚Ρ€ΠΎΠΊΡƒ = " 4 times.(ςίϊπ8ώ΅όγά.

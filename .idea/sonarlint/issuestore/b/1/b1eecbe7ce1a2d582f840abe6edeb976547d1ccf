@@ -1,42 +1,42 @@
 
-o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(õû»Á
-£
-java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¥è¢Šşÿÿÿÿ8´ÜÙÖØ.
-F
-java:S1481")Remove this unused "tmpi" local variable.(¿©ü»8Â÷óÚØ.
-ƒ
-java:S1149´"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(‡à„û8´ÜÙÖØ.
-R
-java:S3740¤"/Provide the parametrized type for this generic.(€ˆèüÿÿÿÿ8´ÜÙÖØ.
-F
-java:S1481"*Remove this unused "var10" local variable.(Ø¬„8Òÿ´ÙØ.
-u	java:S135"YReduce the total number of break and continue statements in this loop to use at most one.(¦÷èú8“¯×ÙØ.
-r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ñœÎğùÿÿÿÿ8Òÿ´ÙØ.
-?
-java:S1118"Hide this public constructor.(¥è¢Šşÿÿÿÿ8´ÜÙÖØ.
-p
-java:S3776ã"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(âŠ­ù8´ÜÙÖØ.
-L
-java:S3740‰"/Provide the parametrized type for this generic.(”Å½Q8´ÜÙÖØ.
-t
-java:S3776"RRefactor this method to reduce its Cognitive Complexity from 63 to the 15 allowed.(ñœÎğùÿÿÿÿ8´ÜÙÖØ.
-ƒ
-java:S1149Ñ"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(ÈÅÀÎ8´ÜÙÖØ.
-D	java:S131æ""Add a default case to this switch.(õÙÆ‚úÿÿÿÿ8´ÜÙÖØ.
-X
-java:S1119";Refactor the code to remove this label and the need for it.(ËèË”8Òÿ´ÙØ.
-R
-java:S3740Ú"/Provide the parametrized type for this generic.(Öö·éşÿÿÿÿ8´ÜÙÖØ.
-ˆ
-java:S1149¤"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(€ˆèüÿÿÿÿ8´ÜÙÖØ.
-M
-java:S3740Ñ"/Provide the parametrized type for this generic.(ÈÅÀÎ8´ÜÙÖØ.
 M
 java:S3740´"/Provide the parametrized type for this generic.(‡à„û8´ÜÙÖØ.
-n	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(·ÀÒ˜ÿÿÿÿÿ8´ÜÙÖØ.
-C	java:S131""Add a default case to this switch.(õÙÆ‚úÿÿÿÿ8Òÿ´ÙØ.
 ‚
 java:S1149‰"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(”Å½Q8´ÜÙÖØ.
+C	java:S131""Add a default case to this switch.(õÙÆ‚úÿÿÿÿ8Òÿ´ÙØ.
+£
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¥è¢Šşÿÿÿÿ8´ÜÙÖØ.
+M
+java:S3740Ñ"/Provide the parametrized type for this generic.(ÈÅÀÎ8´ÜÙÖØ.
+u	java:S135"YReduce the total number of break and continue statements in this loop to use at most one.(¦÷èú8“¯×ÙØ.
+?
+java:S1118"Hide this public constructor.(¥è¢Šşÿÿÿÿ8´ÜÙÖØ.
 m	java:S128""LEnd this switch case with an unconditional break, return or throw statement.(ªëÅŞúÿÿÿÿ8Òÿ´ÙØ.
+L
+java:S3740‰"/Provide the parametrized type for this generic.(”Å½Q8´ÜÙÖØ.
+R
+java:S3740Ú"/Provide the parametrized type for this generic.(Öö·éşÿÿÿÿ8´ÜÙÖØ.
+p
+java:S3776ã"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(âŠ­ù8´ÜÙÖØ.
+n	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(·ÀÒ˜ÿÿÿÿÿ8´ÜÙÖØ.
+F
+java:S1481"*Remove this unused "var10" local variable.(Ø¬„8Òÿ´ÙØ.
+ƒ
+java:S1149Ñ"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(ÈÅÀÎ8´ÜÙÖØ.
+t
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 63 to the 15 allowed.(ñœÎğùÿÿÿÿ8´ÜÙÖØ.
 ˆ
 java:S1149Ú"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(Öö·éşÿÿÿÿ8´ÜÙÖØ.
+D	java:S131æ""Add a default case to this switch.(õÙÆ‚úÿÿÿÿ8´ÜÙÖØ.
+R
+java:S3740¤"/Provide the parametrized type for this generic.(€ˆèüÿÿÿÿ8´ÜÙÖØ.
+ƒ
+java:S1149´"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(‡à„û8´ÜÙÖØ.
+ˆ
+java:S1149¤"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(€ˆèüÿÿÿÿ8´ÜÙÖØ.
+F
+java:S1481")Remove this unused "tmpi" local variable.(¿©ü»8Â÷óÚØ.
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ñœÎğùÿÿÿÿ8Òÿ´ÙØ.
+X
+java:S1119";Refactor the code to remove this label and the need for it.(ËèË”8Òÿ´ÙØ.
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(õû»Á

@@ -1,25 +1,19 @@
 package lab3;
-
-
 import java.io.IOException;
-
-public class util {
+public class util { // клас який відповіда на коректне введення та вивід
     public util() {
     }
-
+    // методи для зручного питання про введення даної змінної
     public static String readString(String text) {
         String ans = null;
         cpage.getOut().print("Введiть " + text + ">");
         cpage.getOut().flush();
-
         try {
             ans = cpage.getIn().readLine();
         } catch (IOException var3) {
         }
-
         return ans.trim();
     }
-
     public static boolean readBoolean(String text) throws NumberFormatException {
         String s = readString(text + " (1-так/0-нi)");
         if (s.equals("0")) {
@@ -30,7 +24,6 @@ public class util {
             throw new NumberFormatException();
         }
     }
-
     public static short readShort(String text, short hb, short lb) throws NumberFormatException {
         short s = Short.parseShort(readString(text));
         if (s <= lb && s >= hb) {
@@ -39,7 +32,7 @@ public class util {
             throw new NumberFormatException();
         }
     }
-
+    // методи редагування вивіду текста з лівого боку
     static String leftString(String s, int l) {
         if (s.length() > l) {
             s = s.substring(0, l);
@@ -48,22 +41,17 @@ public class util {
                 s = s + ' ';
             }
         }
-
         return s;
     }
-
     static String leftString(double d, int l) {
         return leftString("" + d, l);
     }
-
     static String leftString(int i, int l) {
         return leftString("" + i, l);
     }
-
     static String leftString(short i, int l) {
         return leftString("" + i, l);
     }
-
     static String leftString(boolean b, int l) {
         String s = null;
         if (b) {
@@ -71,7 +59,6 @@ public class util {
         } else {
             s = "нi";
         }
-
         return leftString(s, l);
     }
 }
