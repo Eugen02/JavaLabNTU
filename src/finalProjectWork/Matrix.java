@@ -1,6 +1,9 @@
 package finalProjectWork;
 
-import java.util.*;
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.Map;
+import java.util.NoSuchElementException;
 
 
 public class Matrix {
@@ -60,11 +63,12 @@ public class Matrix {
 
     public void setColumnRow(int column, int row, int value) throws MatrixException {
         Integer[] array = arrays.get(column);
-        if (array[row] == null) {
-                throw new MatrixException();
+        if (column >= getSize() || array[row] == null) {
+            throw new MatrixException();
         } else {
             array[row] = value;
             arrays.put(column, array);
+            System.out.println("Значение в матрице установлено");
         }
     }
 
@@ -121,21 +125,21 @@ public class Matrix {
     }
 
     public void printEmptyElement() {
-        int Empty = 0;
+        int empty = 0;
         Integer[] array;
         for (int i = 0; i < size; i++) {
             array = arrays.get(i);
             for (int j = 0; j < size; j++) {
                 if (array[j] == null) {
-                    Empty++;
+                    empty++;
                     continue;
                 }
                 if (array[j] == 0) {
-                    Empty++;
+                    empty++;
                 }
             }
         }
-        System.out.println("Empty elements (null too) = " + Empty);
+        System.out.println("Empty elements (null too) = " + empty);
     }
 
     public void printEmptyElementRow(int row) {
@@ -167,6 +171,34 @@ public class Matrix {
 
     public Iterator<Object> iterator() {
         return new IteratorMatrix();
+    }
+
+    @Override
+    public String toString() {
+        Iterator<Object> objectIterator = iterator();
+        int template = 0;
+        if (!objectIterator.hasNext())
+            return "[]";
+
+        StringBuilder sb = new StringBuilder();
+        sb.append(System.lineSeparator()).append('[');
+        for (; ; ) {
+            Object e = objectIterator.next();
+            if (e == " ") {
+                e = null;
+            }
+            sb.append(e == this ? "(this Collection)" : e);
+            if (!objectIterator.hasNext())
+                return sb.append(']').toString();
+            if (template == size - 1) {
+                sb.append("]").append(System.lineSeparator());
+                template = 0;
+                sb.append("[");
+            } else {
+                template++;
+                sb.append(", ");
+            }
+        }
     }
 
     private class IteratorMatrix implements Iterator<Object> {
@@ -203,34 +235,6 @@ public class Matrix {
 //                return " ";
 //            }
             return array[lastRet];
-        }
-    }
-
-    @Override
-    public String toString() {
-        Iterator<Object> objectIterator = iterator();
-        int template = 0;
-        if (!objectIterator.hasNext())
-            return "[]";
-
-        StringBuilder sb = new StringBuilder();
-        sb.append(System.lineSeparator()).append('[');
-        for (; ; ) {
-            Object e = objectIterator.next();
-            if (e == " ") {
-                e = null;
-            }
-            sb.append(e == this ? "(this Collection)" : e);
-            if (!objectIterator.hasNext())
-                return sb.append(']').toString();
-            if (template == size - 1) {
-                sb.append("]").append(System.lineSeparator());
-                template = 0;
-                sb.append("[");
-            } else {
-                template++;
-                sb.append(", ");
-            }
         }
     }
 

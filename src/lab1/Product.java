@@ -1,25 +1,27 @@
 package lab1;
 
 public class Product {
-    private int id;
-    private String name;
-    private int amount;
-    private double price;
-    public Product(){ }
+    private int id;             //  код товару
+    private String name;        //	назва товару
+    private int amount;         //	кількість
+    private double price;       //	продажна вартість одного товару
+    public Product(){ }         //	конструктор без параметру
 
-    public Product(int id, String name, int amount, double price) {
+    public Product(int id, String name, int amount, double price) {         	//	конструктор з параметрами
         this.id = id;
         this.name = name;
         this.amount = amount;
         this.price = price;
     }
 
-    public Product(int id, String name, int amount) {
+    public Product(int id, String name, int amount) {                           //	конструктор з неповними параметрами
         this.id = id;
         this.name = name;
         this.amount = amount;
         price = 0;
     }
+
+        // get-set методи
     public int getId() {
         return id;
     }
@@ -53,7 +55,7 @@ public class Product {
     }
 
     @Override
-    public String toString() {
+    public String toString() {                      // перегрузка методу toString
         return "Product1{" +
                 "id="+ id+
                 ", name='" + name + '\'' +
@@ -61,11 +63,9 @@ public class Product {
                 ", price=" + price +
                 '}';
     }
-
+    // "втсановлення зв'язку" з ProductRepres.java
     public static ProductRepres getTerminalRepres()
     {
         return ProductRepres.getInstance();
     }
-
-
 }

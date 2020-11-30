@@ -4,19 +4,19 @@ package lab4;
 import java.io.*;
 
 public abstract class Product {
-    private int id;
-    private String name;
-    private int amount;
-    private double price;
+    private int id;                  //  код товару
+    private String name;             //	назва товару
+    private int amount;              //	кількість
+    private double price;            //	продажна вартість одного товару
 
-    Product() {
+    Product() {                     //	конструктор за замовчуванням
         this.id = 1;
         this.name = "";
         this.amount= 0;
         this.price = 0.0;
     }
 
-    Product(int id, String name, int amount, double price) {
+    Product(int id, String name, int amount, double price) { //	конструктор з параметрами
         this();
         this.id = id;
         this.name = name;
@@ -27,12 +27,13 @@ public abstract class Product {
 
     Product(int id, String name, int amount) {
         this(id, name, amount, 0.0);
-    }
+    }  //	конструктор з неповними параметрами
 
     Product(int id, String name) {
         this(id, name, 0, 0.0);
-    }
+    } //	конструктор з неповними параметрами
 
+    // get-set методи
     public int getId() {
         return id;
     }
@@ -69,15 +70,15 @@ public abstract class Product {
 
     public String toString() {
         return this.id + " " + this.name + " " + this.amount + " " + this.price;
-    }
+    } // перегрузка методу toString
 
 
-    public String toString2() {
+    public String toString2() { // перегрузка методу toString
         return util.leftString(this.id, 5) + " " + util.leftString(this.getName(), 12) + " " + this.getAmount();
     }
 
 
-    public boolean writeTxt(String filename) {
+    public boolean writeTxt(String filename) { // клас який записує дані до текстового файла
         PrintWriter file = null;
         try {
             file = new PrintWriter(new OutputStreamWriter(new FileOutputStream(filename), cpage.getCp()));
@@ -104,7 +105,7 @@ public abstract class Product {
         return true;
     }
 
-    public static Product readTxt(String filename) {
+    public static Product readTxt(String filename) {  // клас який зчитує дані з текстового файла
         BufferedReader file = null;
         char[] v = new char[(int)(new File(filename)).length()];
         String s = null;
@@ -162,7 +163,7 @@ public abstract class Product {
         }
     }
 
-    public boolean writeData(String filename) {
+    public boolean writeData(String filename) { // клас який записує дані до bin-файлу
         DataOutputStream file = null;
 
         try {
@@ -191,7 +192,7 @@ public abstract class Product {
         }
     }
 
-    public static Product readData(String filename) {
+    public static Product readData(String filename) { // клас який зчитує дані з bin-файлу
         DataInputStream file = null;
         String type = null;
         Object a = null;
@@ -226,9 +227,9 @@ public abstract class Product {
         }
     }
 
-    public abstract String justString();
+    public abstract String justString();  // перегрузка методу toString
 
     public static ProductRepres getTerminalRepres() {
         return ProductRepres.getInstance();
-    }
+    } // "втсановлення зв'язку" з ProductRepres.java
 }

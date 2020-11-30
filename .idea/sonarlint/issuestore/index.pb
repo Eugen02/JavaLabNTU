@@ -149,3 +149,7 @@ C
 src/lab0/Demo1.java,c\e\cee6ac466bda70f19531e3304cc0e122dfd564d2
 F
 src/lab0/Product1.java,b\a\bada7f69adab06916bfdb2bf36b31e6312580637
+S
+#.idea/sonarlint/issuestore/index.pb,9\f\9fe84ebb15faf917b7def6236dba604453cc61e0
+>
+metod_oop2.rtf,9\8\98f8cf81834b16f4481665cb48ceda61743d2255

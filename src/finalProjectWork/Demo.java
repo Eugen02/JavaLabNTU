@@ -4,7 +4,7 @@ import java.util.Iterator;
 import java.util.Scanner;
 
 public class Demo {
-    public static void main(String[] args)  {
+    public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         Matrix matrix = null;
         int setMain = -1;
@@ -50,7 +50,6 @@ public class Demo {
                     } catch (MatrixException e) {
                         e.printStackTrace();
                     }
-                    System.out.println("Значение в матрице установлено");
                     break;
                 }
                 case 3: {
@@ -80,7 +79,7 @@ public class Demo {
                     matrix = checkMatrix(matrix);
                     System.out.print("Введите колонку = ");
                     int getMatrixColumn = scanner.nextInt();
-                    if (checkForSet(getMatrixColumn < 0)) break;
+                    if (checkForSet(getMatrixColumn < 0 || getMatrixColumn > matrix.getSize()-1)) break;
                     matrix.printNotEmptyElementColumn(getMatrixColumn);
                     break;
                 }
@@ -88,7 +87,7 @@ public class Demo {
                     matrix = checkMatrix(matrix);
                     System.out.print("Введите строку = ");
                     int getMatrixRow = scanner.nextInt();
-                    if (checkForSet(getMatrixRow < 0)) break;
+                    if (checkForSet(getMatrixRow < 0 || getMatrixRow > matrix.getSize()-1)) break;
                     matrix.printNotEmptyElementRow(getMatrixRow);
                     break;
                 }
@@ -101,7 +100,7 @@ public class Demo {
                     matrix = checkMatrix(matrix);
                     System.out.print("Введите строку = ");
                     int getMatrixRow = scanner.nextInt();
-                    if (checkForSet(getMatrixRow < 0)) break;
+                    if (checkForSet(getMatrixRow < 0 || getMatrixRow > matrix.getSize()-1)) break;
                     matrix.printEmptyElementRow(getMatrixRow);
                     break;
                 }
@@ -109,13 +108,12 @@ public class Demo {
                     matrix = checkMatrix(matrix);
                     System.out.print("Введите колонку = ");
                     int getMatrixColumn = scanner.nextInt();
-                    if (checkForSet(getMatrixColumn < 0)) break;
+                    if (checkForSet(getMatrixColumn < 0|| getMatrixColumn > matrix.getSize()-1)) break;
                     matrix.printEmptyElementColumn(getMatrixColumn);
                     break;
                 }
                 case 11: {
                     matrix = checkMatrix(matrix);
-
                     matrix.print();
                     break;
                 }
@@ -134,13 +132,11 @@ public class Demo {
                     System.out.println();
                     break;
                 }
-
                 case 13: {
                     matrix = checkMatrix(matrix);
                     System.out.println(matrix.toString());
                     break;
                 }
-
 
                 default: {
                     setMain = 0;

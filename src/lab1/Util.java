@@ -1,8 +1,9 @@
 package lab1;
 import java.io.*;
 
-public class Util {
+public class Util {                 // клас який відповіда на коректне введення та вивід
 
+    // методи для зручного питання про введення даної змінної
     public static String readString(String text) {
         int rc = 0;
         byte[] ba = new byte[100];
@@ -24,7 +25,7 @@ public class Util {
         else throw new NumberFormatException();
     }
 
-
+                    // методи редагування вивіду текста з лівого боку
     static String leftString(String s, int l) {
         if (s.length() > l) s = s.substring(0, l);
         else while (s.length() < l) s = s + ' ';
